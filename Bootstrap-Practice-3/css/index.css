@@ -1,0 +1,501 @@
+html , body{
+    max-width: 100%;
+    height: auto;
+    position: realtive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    font-family: "bootstrap-icons";
+}
+
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("./fonts/bootstrap-icons.woff2?856008caa5eb66df68595e734e59580d") format("woff2"),
+  url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("woff");
+  }
+
+.containerr{
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sbt{
+    text-decoration: none;
+    color: white !important;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 22px;
+}
+
+.about{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 23px;
+    left: 1007px;
+    font-size: 18px;
+}
+
+.services{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 23px;
+    left: 1080px;
+    font-size: 18px;
+}
+
+.portfolio{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 23px;
+    left: 1175px;
+    font-size: 18px;
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 23px;
+    left: 1275px;
+    font-size: 18px;
+}
+
+.sbt:hover{
+    color: rgb(210, 136, 0) !important;
+
+}
+
+.about:hover{
+    color: rgb(210, 136, 0) !important;
+}
+
+.services:hover{
+    color: rgb(210, 136, 0) !important;
+}
+
+.portfolio:hover{
+    color: rgb(210, 136, 0) !important;
+}
+
+.contact:hover{
+    color: rgb(210, 136, 0) !important;
+}
+
+.bg-pic{
+    width: 100%;
+    height: 734px;
+    opacity: 0.85;
+}
+
+.first-text{
+    position: absolute;
+    top: 220px;
+    left: 430px;
+    color: white;
+    font-size: 50px;
+}
+
+.continue{
+    position: absolute;
+    top: 300px;
+    left: 540px;
+    color: white;
+    font-size: 50px;
+}
+
+.second-text{
+    color: white;
+    position: absolute;
+    top: 430px;
+    left: 380px;
+    font-size: 20px;
+}
+
+.continuee{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 480px;
+    font-size: 20px;
+}
+
+.find-out{
+    background-color: #f4623a;
+    color: white;
+    width: 180px;
+    height: 60px;
+    padding: 10px;
+    position: absolute;
+    top: 530px;
+    left: 650px;
+    border: 1px solid red;
+    border-radius: 40px;
+}
+
+.find-out:hover{
+    cursor: pointer;
+    background-color: #ce5635;
+}
+
+.main1{
+    background-color: #f4623a;
+    max-width: 100%;
+    height: 477px;
+}
+
+.about1{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 850px;
+    left: 540px;
+}
+
+.first{
+    font-size: 17px;
+    color: rgb(238, 238, 238);
+    position: absolute;
+    top: 950px;
+    left: 350px;
+}
+
+.second{
+    font-size: 17px;
+    color: rgb(238, 238, 238);
+    position: absolute;
+    top: 980px;
+    left: 395px;
+}
+
+.GT{
+    background-color: white;
+    color: black;
+    width: 180px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    position: absolute;
+    top: 1030px;
+    left: 650px;
+}
+
+.main2{
+    background-color: white;
+    max-width: 100%;
+    height: 550px;
+}
+
+.onee{
+    color: black;
+    font-size: 35px;
+    position: absolute;
+    top: 1330px;
+    left: 625px;
+}
+
+.gem{
+    position: absolute;
+    top: 1500px;
+    left: 210px;
+    font-size: 50px;
+    color: #f4623a;
+}
+
+.top-text1{
+    position: absolute;
+    top: 1560px;
+    left: 150px;
+    font-size: 25px;
+}
+
+.secondd{
+    position: absolute;
+    top: 1600px;
+    left: 110px;
+}
+
+.third{
+    position: absolute;
+    top: 1630px;
+    left: 150px;
+}
+
+.laptop{
+    font-size: 35px;
+    color: #f4623a;
+    margin-top: 300px;
+    margin-left: 510px;
+}
+
+.top-text2{
+    position: absolute;
+    top: 1559px;
+    left: 475px;
+    font-size: 25px;
+}
+
+.num1{
+    position: absolute;
+    top: 1600px;
+    left: 410px;
+}
+
+.num2{
+    position: absolute;
+    top: 1628px;
+    left: 455px;
+}
+
+.circle{
+    position: absolute;
+    top: 1500px;
+    left: 805px;
+    font-size: 50px;
+    color: #f4623a;
+}
+
+.top-text3{
+    font-size: 25px;
+    position: absolute;
+    top: 1557px;
+    left: 745px;
+}
+
+.line1{
+    position: absolute;
+    top: 1600px;
+    left: 720px;
+}
+
+.line2{
+    position: absolute;
+    top: 1625px;
+    left: 750px;
+}
+
+.heartt{
+    color: #f4623a;
+    font-size: 50px;
+    position: absolute;
+    top: 1500px;
+    left: 1098px;
+}
+
+.top-text4{
+    font-size: 25px;
+    position: absolute;
+    top: 1557px;
+    left: 1050px;
+}
+
+.number2{
+    position: absolute;
+    top: 1600px;
+    left: 1020px;
+}
+
+.last{
+    position: absolute;
+    top: 1625px;
+    left: 1070px;
+}
+
+.pic1{
+    width: 495px;
+    height: 250px;
+}
+
+.pic2{
+    width: 495px;
+    height: 250px;
+}
+
+.pic3{
+    width: 495px;
+    height: 250px;
+}
+
+.pic4{
+    position: absolute;
+    top: 2011px;
+    width: 475px;
+    height: 250px; 
+}
+
+.pic5{
+    position: absolute;
+    top: 2011px;
+    left: 475px;
+    width: 475px;
+    height: 250px; 
+}
+
+.pic6{
+    position: absolute;
+    top: 2011px;
+    left: 950px;
+    width: 475px;
+    height: 250px;   
+}
+
+.bg-gray{
+    background-color: rgb(35, 35, 35);
+    width: 1425px;
+    height: 380px;
+    position: absolute;
+    top: 2261px;
+    left: 0;
+}
+
+.free-dl{
+    position: absolute;
+    top: 2383px;
+    left: 458px;
+    font-size: 35px;
+}
+
+.dl-now{
+    background-color: white;
+    color: black;
+    width: 195px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    position: absolute;
+    top: 2455px;
+    left: 615px;
+    font-size: 14px;
+}
+
+.main4{
+    background-color: white;
+    width: 1425px;
+    height: 1030px;
+    position: absolute;
+    top: 2641px;
+}
+
+.lgt{
+    color: black;
+    margin-left: 575px;
+    margin-top: 119px;
+    font-size: 35px;
+}
+
+.text1{
+    margin-top: 47px;
+    margin-left: 450px;
+}
+
+.continueee{
+    margin-left: 580px;
+    position: absolute;
+    top: 240px;
+}
+
+#full-name{
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 530px;
+    height: 55px;
+    border: 1px solid rgb(205, 204, 204);
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+#mail{
+    background-color: transparent;
+    margin-left: 450px;
+    width: 530px;
+    height: 55px;
+    border: 1px solid rgb(205, 204, 204);
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+#phonee{
+    background-color: transparent;
+    margin-left: 450px;
+    width: 530px;
+    height: 55px;
+    border: 1px solid rgb(205, 204, 204);
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+#messagee{
+    color: rgb(124, 124, 124);
+    background-color: transparent;
+    margin-left: 450px;
+    width: 530px;
+    height: 160px;
+    border: 1px solid rgb(205, 204, 204);
+    padding-left: 15px;
+    padding-top: 15px;
+    /* border-radius: 5px; */
+}
+
+.submit{
+    background-color: #f4623ac8;
+    color: white;
+    width: 535px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    position: absolute;
+    left: 448px;
+    font-size: 14px;
+    margin-top: 180px;
+}
+
+.mobilee{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 3480px;
+    left: 705px;
+}
+
+.number{
+    position: absolute;
+    top: 3520px;
+    left: 640px;
+}
+
+.end-section{
+    background-color: rgba(246, 246, 246, 0.713);
+    color: rgb(122, 122, 122);
+    text-align: center;
+    padding-top: 50px;
+    position: absolute;
+    top: 3800px;
+    width: 1425px;
+    height: 130px;
+    /* border: 1px solid white; */
+}
+
+.white-bottom{
+    background-color: white;
+    position: absolute;
+    top: 3900px;
+    width: 1425px;
+    height: 25px;
+}
