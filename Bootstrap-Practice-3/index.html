@@ -10,12 +10,12 @@
 </head>
 <body>
   <nav class="main d-flex">
-    <div class="containerr text-white">
-      <a href="#sbtx" class="sbt fw-bold text-white">Start Bootstrap</a>
-      <a href="#aboutx" class="about fw-bold text-white">About</a>
-      <a href="#servicesx" class="services fw-bold text-white">Services</a>
-      <a href="#portfoliox" class="portfolio fw-bold text-white">Portfolio</a>
-      <a href="#contactx" class="contact fw-bold text-white">Contact</a>
+    <div class="containerr">
+      <a href="#sbtx" class="sbt fw-bold text-dark">Start Bootstrap</a>
+      <a href="#aboutx" class="about fw-bold text-dark">About</a>
+      <a href="#servicesx" class="services fw-bold text-dark">Services</a>
+      <a href="#portfoliox" class="portfolio fw-bold text-dark">Portfolio</a>
+      <a href="#contactx" class="contact fw-bold text-dark">Contact</a>
     </div>
   </nav>
 
@@ -26,7 +26,7 @@
       <p class="continue fw-bold">Bootstrap Themes</p>
       <p class="second-text">Start Bootstrap can help you build better websites using the Bootstrap framework! Just</p>
       <p class="continuee">download a theme and start customizing, no strings attached!</p>
-      <button class="find-out fw-bold">FIND OUT MORE</button>
+      <button id="findOut" class="fw-bold">FIND OUT MORE</button>
     </main>
   </span>
 
@@ -35,7 +35,7 @@
       <p class="about1">We've got what you need!</p>
       <p class="first">Start Bootstrap has everything you need to get your new website up and running in no time! Choose</p>
       <p class="second">one of our open source, free to download, and easy to use themes! No strings attached!</p>
-      <button class="GT fw-bold">GET STARTED!</button>
+      <button id="GT" class="fw-bold">GET STARTED!</button>
     </section>
   </span>
 
@@ -71,20 +71,20 @@
       <img class="pic6" src="https://startbootstrap.github.io/startbootstrap-creative/assets/img/portfolio/thumbnails/6.jpg"/>
       <div class="bg-gray"></div>
       <p class="free-dl text-white">Free Download at Start Bootstrap!</p>
-      <button class="dl-now fw-bold">DOWNLOAD NOW!</button>
+      <button id="dlNow" class="fw-bold">DOWNLOAD NOW!</button>
     </mark>
   </span>
 
-  <span id="contactx">
-    <detail class="main4">
+  <span>
+    <detail id="contactx" class="main4">
       <p class="lgt">Let's Get In Touch!</p>
       <p class="text1 text-muted">Ready to start your next project with us? Send us a messages and we will</p>
       <p class="continueee text-muted">get back to you as soon as possible!</p>
-      <input type="tel" id="full-name" name="" placeholder="Full name"><br><br>
-      <input type="tel" id="mail" name="" placeholder="Email address"><br><br>
-      <input type="tel" id="phonee" name="" placeholder="Phone number"><br><br>
-      <textarea id="messagee" name="w3review" rows="4" cols="50">Message</textarea>
-      <button class="submit fw-bold">SUBMIT</button>
+      <input type="text" id="fullName" name="" placeholder="Full name" autocomplete="off"><br><br>
+      <input type="email" id="mail" name="" placeholder="Email address" autocomplete="off"><br><br>
+      <input type="number" id="phoneNum" name="" placeholder="Phone number" autocomplete="off"><br><br>
+      <textarea id="messagee" name="w3review" rows="4" cols="50" placeholder="Message(optional)"></textarea>
+      <button onclick="clickHandle()" class="submit fw-bold">SUBMIT</button>
     </detail>
     <i class="fa-light fa-mobile-button mobilee"></i>
     <p class="number">+1 (555) 123-4567</p>
@@ -92,8 +92,8 @@
 
   <footer>
     <p class="end-section">Copyright © 2022 - Company Name</p>
-    <div class="white-bottom"></div>
   </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </html>

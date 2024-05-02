@@ -24,6 +24,8 @@ html , body{
     z-index: 1;
     width: 100%;
     height: 80px;
+    color: black;
+    background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,68 +33,53 @@ html , body{
 
 .sbt{
     text-decoration: none;
-    color: white !important;
     position: absolute;
     top: 20px;
     left: 100px;
     font-size: 22px;
+    transition: all 0.25s;
 }
 
 .about{
     text-decoration: none;
-    color: white;
     position: absolute;
     top: 23px;
     left: 1007px;
     font-size: 18px;
+    transition: all 0.25s;
 }
 
 .services{
     text-decoration: none;
-    color: white;
     position: absolute;
     top: 23px;
     left: 1080px;
     font-size: 18px;
+    transition: all 0.25s;
 }
 
 .portfolio{
     text-decoration: none;
-    color: white;
     position: absolute;
     top: 23px;
     left: 1175px;
     font-size: 18px;
+    transition: all 0.25s;
 }
 
 .contact{
     text-decoration: none;
-    color: white;
     position: absolute;
     top: 23px;
     left: 1275px;
     font-size: 18px;
+    transition: all 0.25s;
 }
 
-.sbt:hover{
+.sbt:hover , .about:hover , .services:hover , .portfolio:hover , .contact:hover{
+    transition: all 0.25;
     color: rgb(210, 136, 0) !important;
 
-}
-
-.about:hover{
-    color: rgb(210, 136, 0) !important;
-}
-
-.services:hover{
-    color: rgb(210, 136, 0) !important;
-}
-
-.portfolio:hover{
-    color: rgb(210, 136, 0) !important;
-}
-
-.contact:hover{
-    color: rgb(210, 136, 0) !important;
 }
 
 .bg-pic{
@@ -133,20 +120,22 @@ html , body{
     font-size: 20px;
 }
 
-.find-out{
+#findOut{
     background-color: #f4623a;
     color: white;
     width: 180px;
     height: 60px;
-    padding: 10px;
     position: absolute;
     top: 530px;
     left: 650px;
     border: 1px solid red;
     border-radius: 40px;
+    transition: all 0.25s;
 }
 
-.find-out:hover{
+#findOut:hover{
+    width: 180px;
+    height: 60px;
     cursor: pointer;
     background-color: #ce5635;
 }
@@ -181,7 +170,7 @@ html , body{
     left: 395px;
 }
 
-.GT{
+#GT{
     background-color: white;
     color: black;
     width: 180px;
@@ -192,6 +181,11 @@ html , body{
     position: absolute;
     top: 1030px;
     left: 650px;
+    transition: all 0.25s;
+}
+
+#GT:hover {
+    background-color: rgb(194, 194, 194);
 }
 
 .main2{
@@ -318,16 +312,19 @@ html , body{
 .pic1{
     width: 495px;
     height: 250px;
+    cursor: pointer;
 }
 
 .pic2{
     width: 495px;
     height: 250px;
+    cursor: pointer;
 }
 
 .pic3{
-    width: 495px;
+    width: 475px;
     height: 250px;
+    cursor: pointer;
 }
 
 .pic4{
@@ -335,6 +332,7 @@ html , body{
     top: 2011px;
     width: 475px;
     height: 250px; 
+    cursor: pointer;
 }
 
 .pic5{
@@ -343,6 +341,7 @@ html , body{
     left: 475px;
     width: 475px;
     height: 250px; 
+    cursor: pointer;
 }
 
 .pic6{
@@ -351,6 +350,7 @@ html , body{
     left: 950px;
     width: 475px;
     height: 250px;   
+    cursor: pointer;
 }
 
 .bg-gray{
@@ -369,7 +369,7 @@ html , body{
     font-size: 35px;
 }
 
-.dl-now{
+#dlNow{
     background-color: white;
     color: black;
     width: 195px;
@@ -381,12 +381,17 @@ html , body{
     top: 2455px;
     left: 615px;
     font-size: 14px;
+    transition: all 0.25s;
+}
+
+#dlNow:hover {
+    background-color: rgb(194, 194, 194);
 }
 
 .main4{
     background-color: white;
     width: 1425px;
-    height: 1030px;
+    height: 1000px;
     position: absolute;
     top: 2641px;
 }
@@ -409,7 +414,7 @@ html , body{
     top: 240px;
 }
 
-#full-name{
+#fullName{
     background-color: transparent;
     margin-top: 50px;
     margin-left: 450px;
@@ -418,6 +423,10 @@ html , body{
     border: 1px solid rgb(205, 204, 204);
     padding-left: 15px;
     border-radius: 5px;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
 }
 
 #mail{
@@ -428,9 +437,13 @@ html , body{
     border: 1px solid rgb(205, 204, 204);
     padding-left: 15px;
     border-radius: 5px;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
 }
 
-#phonee{
+#phoneNum{
     background-color: transparent;
     margin-left: 450px;
     width: 530px;
@@ -438,22 +451,32 @@ html , body{
     border: 1px solid rgb(205, 204, 204);
     padding-left: 15px;
     border-radius: 5px;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#phoneNum::-webkit-outer-spin-button,
+#phoneNum::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 #messagee{
-    color: rgb(124, 124, 124);
-    background-color: transparent;
     margin-left: 450px;
     width: 530px;
     height: 160px;
     border: 1px solid rgb(205, 204, 204);
     padding-left: 15px;
     padding-top: 15px;
-    /* border-radius: 5px; */
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
 }
 
 .submit{
-    background-color: #f4623ac8;
+    background-color: #f4623a;
     color: white;
     width: 535px;
     height: 60px;
@@ -486,16 +509,7 @@ html , body{
     text-align: center;
     padding-top: 50px;
     position: absolute;
-    top: 3800px;
+    top: 3700px;
     width: 1425px;
     height: 130px;
-    /* border: 1px solid white; */
-}
-
-.white-bottom{
-    background-color: white;
-    position: absolute;
-    top: 3900px;
-    width: 1425px;
-    height: 25px;
 }
